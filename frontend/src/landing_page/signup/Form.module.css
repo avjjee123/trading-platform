@@ -1,0 +1,67 @@
+.container{
+    /* position: relative; */
+    display: flex;
+    margin-left: 30%;
+    margin-top: 20%;
+    border: 2px solid black;
+    width: 18rem; 
+    overflow:hidden; 
+    border-radius: 10px
+}   
+.signup{
+    width:18rem;
+    position: relative; 
+    top:0px;
+    object-fit:cover;
+    transition: 1.5s ease-in-out;
+}
+.login{
+    width:18rem;
+    position: relative;
+    transition: 1.5s ease-in-out;
+}
+form{
+    margin-top:1rem;
+    margin-bottom: 1rem; 
+}
+form input{
+    height:1.7rem;
+    width:12rem;
+    border-radius: 5px;
+    margin:1rem 3rem;
+}
+.loginBtn{  
+    height: 1.5rem;
+    border: none;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.2rem;
+    cursor: pointer;
+}
+.signupBtn{
+    height: 1.5rem;
+    border: none;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.2rem;
+    cursor: pointer;
+}
+.submit{
+    width:3.5rem; 
+    height: 1.75rem;
+    border-radius: 5px;
+    margin-left: 11rem; 
+}
+.loginBtn:hover,.signupBtn:hover{ 
+    font-size:1.3rem;
+    text-decoration: aliceblue;
+    border:2px solid black; 
+    border-radius:5px;
+    border-top: none;
+}
+#togglelogin,#togglesignup{
+    display: none;
+}
+#togglelogin:checked{
+    left:18rem;
+}
